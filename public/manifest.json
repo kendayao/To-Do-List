@@ -8,17 +8,17 @@
       "type": "image/x-icon"
     },
     {
-      "src": "icons/android-chrome-192x192.png",
+      "src": "icons/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icons/android-chrome-512x512.png",
+      "src": "icons/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#fdcb6e",
   "background_color": "#fdcb6e ",
