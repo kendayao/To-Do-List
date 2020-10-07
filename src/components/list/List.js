@@ -1,12 +1,10 @@
 import React from 'react'
 import './List.css'
 
-function List(){
+function List(props){
     return(
-        <div>
-            <ul>
-                <li>List Test</li>
-            </ul>
+        <div onClick={()=>props.delete(props.id)}>
+          <li>{props.item}</li>
         </div>
     )
 }
