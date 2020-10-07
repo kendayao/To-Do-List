@@ -1,10 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/header/Header'
 import './App.css';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div className="container">
+      <Header />
+    </div>
+    
   )
 }
 
