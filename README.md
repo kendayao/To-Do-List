@@ -67,6 +67,6 @@ For any questions, please contact kendayao at kendayao@gmail.com
 
 ## Deployed Application URL
 
-Deployed application link: https://kaenethdayao.herokuapp.com/
+Deployed application link: https://kendayao.github.io/To-Do-List/
 
 <img src="public/to-do-list.png" width="400" height="300">
