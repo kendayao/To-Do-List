@@ -1,8 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import List from '../list/List'
 import './Form.css'
 
 function Form(){
+
+    useEffect(()=>{
+        var storage=JSON.parse(localStorage.getItem('items'))
+        setItems(storage)
+    },[])
 
     const [itemInput, setItemInput]=useState("")
     const [items, setItems]=useState([])
@@ -15,12 +20,18 @@ function Form(){
 
     function handleClick(event){
         event.preventDefault();
-        setItems(prevItems=>{
-            return[...prevItems, itemInput]
-        })
+        setItems([...items, itemInput])
         setItemInput("")
+        
+        
     }
 
+    useEffect(() => {
+        localStorage.setItem('items', JSON.stringify(items))
+    }, [items])
+   
+
+    console.log(items)
     function handleDelete(id){
        
         setItems(prevItems=>{
