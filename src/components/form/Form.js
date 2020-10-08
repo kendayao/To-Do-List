@@ -10,7 +10,7 @@ function Form(){
     // },[])
 
     const [itemInput, setItemInput]=useState("")
-    const [items, setItems]=useState([])
+    const [items, setItems]=useState(JSON.parse(localStorage.getItem('items')) || [])
 
     function handleInputChange(event){
         const itemValue=event.target.value
