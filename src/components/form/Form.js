@@ -4,10 +4,10 @@ import './Form.css'
 
 function Form(){
 
-    useEffect(()=>{
-        var storage=JSON.parse(localStorage.getItem('items'))
-        setItems(storage)
-    },[])
+    // useEffect(()=>{
+    //     var storage=JSON.parse(localStorage.getItem('items'))
+    //     setItems(storage)
+    // },[])
 
     const [itemInput, setItemInput]=useState("")
     const [items, setItems]=useState([])
