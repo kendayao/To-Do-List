@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a to-do-list web web application built with REACT.
+This is a to do list web application built with REACT. Easily add and delete any of your duties with one click. Bookmark this app onto your phone homescreen for easy access.
 
 ## Table of Contents
 
@@ -20,6 +20,7 @@ This is a to-do-list web web application built with REACT.
 ## Technology
 - REACT
 - REACT Hooks
+- Local Storage
 - HTML
 - CSS 
 - JavaScript
@@ -27,7 +28,7 @@ This is a to-do-list web web application built with REACT.
 
 ## User Story
 
-As a busy programmer, I want a to-do-list application to keep track of my daily chores.
+As a busy programmer, I want a to-do-list application to keep track of my daily chores in my personal life.
 
 
 ## Installation
@@ -38,7 +39,7 @@ No installation needed.
 
 ## Usage
 
-The deployed application link will take you to the homepage. From the homepage, you can type in your to do list item in the input field. Click on add to add the item to your list. Click on any to-do-list item to delete it from the list.
+The deployed application link will take you to the homepage. From the homepage, you can type in your to do list item in the input field. Click on add to add the item to your list. Click on any to-do-list item to delete it from the list. Local storage saves your list so when you return to the app, your original list will display.
 
 
 ## License
